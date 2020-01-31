@@ -1,0 +1,17 @@
+﻿Question 5 :	#
+Un Proxy est utilisé également pour mettre en cache les pages Web consultées, dans cc cas il
+faut prévoir un espace disque proportionnel aux nombres de postes utilisant le Proxy.
+Un proxy a aussi une fonction de ''translation d'adresses" (masquerading). C est I adresse
+générée par le Proxy qui part sur Internet (selon la configuration bien sûr) et non I adresse
+des postes qui font appel à lui. On parle alors de réseau privé et de réseau public et du
+protocole NAT (Network Address Translator).
+Lorsqu'un équipement réseau (un routeur ou un proxy généralement) appliquant le
+protocole NAT reçoit un paquet IP en provenance du réseau privé, il sa modifier l'adresse
+IP source ainsi que le port application source.
+Rappelons que la RFC 1918 indique des plages d'adresses utilisables pour adresser son
+réseau privé en toute sécurité, car elles ne sont pas routées sur Internet (il s'agit des plages
+10.0.0.0/8,172.16.0.0/12 et 192.168.0.0/16).
+I n Proxy peut filtrer les sites Web consultés en utilisant pour cela un fichier des sites
+interdits. Il peut aussi interdire certains protocoles (FTP par exemple) ou le téléchargement
+de certains fichiers en fonction de leur extension (MP3 par exemple). Il joue alors le rôle de
+pare-feu.
